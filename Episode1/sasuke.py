@@ -4,12 +4,11 @@ client=discord.Client()
 
 
 @client.event
-async def on_ready():
-	global role_list
+async def on_ready()
 	print('Logged in as: '+client.user.name)
-	print('Bot ID: '+client.user.id)
+	print('iD: '+client.user.id)
 	await client.change_presence(game=discord.Game(name='sasuke.py')) 
-	print('------\n')
+	print('------')
 	
 
 
