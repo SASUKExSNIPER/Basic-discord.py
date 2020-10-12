@@ -1,18 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
-    <!-- main.css -->
+  <!-- main.css -->
     <!--site Title-->
     <title>Discord Profile Card</title>
   </head>
@@ -25,7 +11,7 @@
 <style>
       
       
-      .card {
+    .card {
     background-color: rgb(36,36,33);
     width: 250px;
     border-radius: 5px;
@@ -96,7 +82,7 @@
     float: left;
 }
       
-      </style>
+      <\style>
 <div class="card">
     <div class="adjust">
         <img src="https://cdn.discordapp.com/attachments/591157769181069332/730840844793282690/ic_launcher.png" alt="profile img" class="rounded-circle" width="80px" height="80px">
