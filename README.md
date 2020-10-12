@@ -1,5 +1,3 @@
-# Basic-discord.py
-This project I make for you lernen to discord.py
 <!doctype html>
 <html lang="en">
   <head>
@@ -15,7 +13,6 @@ This project I make for you lernen to discord.py
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     <!-- main.css -->
-    <link rel="stylesheet" href="../style.css">
     <!--site Title-->
     <title>Discord Profile Card</title>
   </head>
@@ -25,7 +22,81 @@ This project I make for you lernen to discord.py
 <div class="container">
     <center>
 <!--First-->
+<style>
+      
+      
+      .card {
+    background-color: rgb(36,36,33);
+    width: 250px;
+    border-radius: 5px;
+}
 
+.adjust {
+    padding: 16px;
+}
+
+.text-white {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.second {
+    padding: 9px;
+    padding-right: 0px;
+    background-color: #2f3136;
+    width: 250;
+}
+
+.third {
+    padding: 9px;
+    padding-right: 0px;
+    background-color: #7289da;
+    width: 250;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.text-social {
+    color: white;
+    text-align: left;
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 0px;
+    letter-spacing: 1.3px;
+}
+
+.social {
+    float: left;
+    margin: 14px;
+}
+
+.youtube {
+    margin-left: 5px;
+}
+
+.btn {
+    height: 60px;
+    width: 200px;
+    margin: 0rem;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    float: left;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-transform: none;
+}
+
+.text-server {
+    font-size: 16px;
+    margin-top: 16px;
+    font-weight: 500;
+    color: #fff;
+    float: left;
+}
+      
+      </style>
 <div class="card">
     <div class="adjust">
         <img src="https://cdn.discordapp.com/attachments/591157769181069332/730840844793282690/ic_launcher.png" alt="profile img" class="rounded-circle" width="80px" height="80px">
